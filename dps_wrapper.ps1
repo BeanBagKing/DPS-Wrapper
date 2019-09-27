@@ -1,6 +1,10 @@
 # Wrapper for DomainPasswordSpray
 # https://github.com/dafthack/DomainPasswordSpray
 
+# WARNING!
+# WARNING! This uses -Force to skip confirmation and does not respect lockout times as each loop is an individual run
+# WARNING!
+
 # Created to perform a single user/single pass attack
 # Drop this script in the same directory as DomainPasswordSpray, as well as two files containing users and passwords
 # user.txt contains a line delimited list of usernames
